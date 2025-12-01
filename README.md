@@ -45,7 +45,7 @@ By moving beyond static averages to predictive modeling, we aim to deliver:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone [https://github.com/yourusername/OR-Utilization-Project.git](https://github.com/yourusername/OR-Utilization-Project.git)
+git clone [https://github.com/Reddy3001/OR_Utilization-Group-5.git](https://github.com/Reddy3001/OR_Utilization-Group-5.git)
 cd OR-Utilization-Project
 ```
 ### 2️⃣ Create and activate a virtual environment
