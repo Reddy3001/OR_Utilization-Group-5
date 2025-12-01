@@ -41,7 +41,9 @@ By moving beyond static averages to predictive modeling, we aim to deliver:
 ├── requirements.txt                     # Python dependencies
 └── README.md
 ```
-## 🚀 How to Run the Notebook
+## Data Source
+[https://www.kaggle.com/datasets/thedevastator/optimizing-operating-room-utilization](https://www.kaggle.com/datasets/thedevastator/optimizing-operating-room-utilization)
+##  How to Run the Notebook
 
 ### 1️⃣ Clone the repository
 ```bash
@@ -78,7 +80,7 @@ The notebook performs a deep dive into historical data:
 
 ---
 
-## 🧪 Statistical Testing (A/B Analysis)
+##  Statistical Testing (A/B Analysis)
 We performed hypothesis testing to validate the need for a predictive model by comparing:
 * **Group A:** Booked Time (Current baseline scheduling)
 * **Group B:** Actual Duration (Ground truth)
@@ -91,14 +93,14 @@ We performed hypothesis testing to validate the need for a predictive model by c
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 We trained and evaluated two regression models to predict case duration:
 1.  **RandomForestRegressor**
 2.  **XGBoostRegressor**
 
 Hyperparameter tuning was performed using `GridSearchCV` (cv=3) optimizing for Negative Mean Absolute Error.
 
-### 🏆 Best Model: Random Forest
+###  Best Model: Random Forest
 The **RandomForestRegressor** outperformed XGBoost in stability and error metrics.
 
 **Final Hyperparameters:**
@@ -122,7 +124,7 @@ The pipeline automatically generates and saves the following insights to the `/p
 
 ---
 
-## 💾 Model Usage
+##  Model Usage
 The best-performing model is automatically saved for production use. To load the model in a Python script or API:
 
 ```python
